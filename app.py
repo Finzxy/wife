@@ -1,4 +1,6 @@
 from llama import ask
+from kitten import speaking
+import subprocess
 
 def main():
     while True:
@@ -9,4 +11,6 @@ def main():
         result = ask(prompt)
         print("wife:",result)
 
+        speaking(result)
+        subprocess.run(["pw-play", "output.mp3"], check=True)
 main()

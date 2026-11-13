@@ -4,7 +4,7 @@ llama = "http://localhost:12828/v1/chat/completions" #change ts to your llama-se
 def ask(text):
     payload={
         "messages": [
-            {"role": "system", "content": "you are fin wife"} #you can change ts to give name or make personality (nvm its just example :v)
+            {"role": "system", "content": "you are fin wife"}, #you can change ts to give name or make personality (nvm its just example :v)
             {"role": "user", "content": text}
         ],
         "temperature": 0.7,

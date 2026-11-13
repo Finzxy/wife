@@ -1,7 +1,0 @@
-kittenml
-huggingface_hub
-onnxruntime
-espeakng_loader
-phonemizer
-soundfile
-numpy
